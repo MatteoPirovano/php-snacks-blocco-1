@@ -10,7 +10,7 @@
   “Accesso negato”.
   */
   $name = $_GET["name"];
-  $email = $_GET["mail"];
+  $email = $_GET["email"];
   $age = $_GET["age"];
 
   if (empty($name) && empty($email) && empty($age)) {
